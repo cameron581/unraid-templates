@@ -39,7 +39,13 @@ SkyFactory&#xAE; One is a modernization of the original SkyFactory for Minecraft
 SkyFactory One delivers a nostalgic experience with the quality of life upgrades to make it even more exciting! If you've never played SkyFactory before, prepare for a fresh experience in a modded skyblock. The original can never be replaced, but we can sure try!</Description>
   <Networking>
     <Mode>bridge</Mode>
-    <Publish/>
+    <Publish>
+      <Port>
+        <HostPort>25565</HostPort>
+        <ContainerPort/>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data>
     <Volume>
