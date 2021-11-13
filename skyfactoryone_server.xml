@@ -42,7 +42,7 @@ SkyFactory One delivers a nostalgic experience with the quality of life upgrades
     <Publish>
       <Port>
         <HostPort>25565</HostPort>
-        <ContainerPort/>
+        <ContainerPort>25565</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
