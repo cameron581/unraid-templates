@@ -9,11 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/115033-support-goobaroo-game-server-dockers/</Support>
   <Project>https://www.curseforge.com/minecraft/modpacks/skyfactory-4</Project>
-  <Overview>SkyFactory 4 Modded Minecraft Server&#xD;
-&#xD;
-Back again for more modded skyblock fun! SkyFactory 4 offers a brand-new experience never before seen in the series. Full automation, tech, magic, and bacon resources! This iteration offers over 30+ world types so you can play the pack like never before! While some world types are based on the classic tree on dirt others are designed with unique recipes and advancements.&#xD;
-&#xD;
-Version 4.2.2&#xD;</Overview>
+  <Overview>SkyFactory 4 Modded Minecraft Server[br]Back again for more modded skyblock fun! SkyFactory 4 offers a brand-new experience never before seen in the series. Full automation, tech, magic, and bacon resources! This iteration offers over 30+ world types so you can play the pack like never before! While some world types are based on the classic tree on dirt others are designed with unique recipes and advancements.[br]Version 4.2.2</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
@@ -24,7 +20,7 @@ Version 4.2.2&#xD;</Overview>
   <DateInstalled>1634691605</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>SkyFactory 4 Modded Minecraft Server v4.2.2&#xD;</Description>
+  <Description>SkyFactory 4 Modded Minecraft Server v4.2.2</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
