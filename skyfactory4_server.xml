@@ -59,6 +59,6 @@
   <Config Name="Installed Location" Target="/data" Default="/mnt/user/appdata/skyfactory4/" Mode="rw" Description="Path to store the installed server files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/skyfactory4/</Config>
   <Config Name="JVM_OPTS" Target="JVM_OPTS" Default="-Xms3072m -Xmx4096m" Mode="" Description="Java Options" Type="Variable" Display="always" Required="false" Mask="false">-Xms3072m -Xmx4096m</Config>
   <Config Name="OPS" Target="OPS" Default="" Mode="" Description="Comma separated list of players to have op capability" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Port" Target="" Default="25565" Mode="tcp" Description="Port for the server" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
+  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="Port for the server" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
   <Config Name="LEVEL" Target="LEVEL" Default="world" Mode="" Description="Name of the world directory.  It is usually world." Type="Variable" Display="advanced" Required="false" Mask="false">world</Config>
 </Container>
