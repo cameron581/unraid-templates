@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Enigmatica6</Name>
+  <Repository>goobaroo/enigmatica6</Repository>
+  <Registry>https://hub.docker.com/repository/docker/goobaroo/enigmatica6</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/115033-support-goobaroo-game-server-dockers/</Support>
+  <Project>https://www.curseforge.com/minecraft/modpacks/enigmatica6</Project>
+  <Overview>Play with new mods and old favorites in Minecraft 1.16.5! Enigmatica 6 offers a boatload of custom content including quests!</Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Goobaroo/docker-enigmatica6/main/enigmatica6.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1634691605</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Enigmatica 6 Modded Minecraft Server</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>25565</HostPort>
+        <ContainerPort>25565</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/enigmatica6/</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>false</Value>
+      <Name>EULA</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>5G</Value>
+      <Name>MAX_RAM</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>OPS</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Installed Location" Target="/data" Default="/mnt/user/appdata/enigmatica6/" Mode="rw" Description="Path to store the installed server files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/enigmatica6/</Config>
+  <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="By typing TRUE you are indicating your agreement to the EULA of Mojang. Read it at https://account.mojang.com/documents/minecraft_eula before accepting it." Type="Variable" Display="always" Required="true" Mask="false">false</Config>
+  <Config Name="MAX_RAM" Target="MAX_RAM" Default="5G" Mode="" Description="Maximum memory for the server. Must end in G for gigabytes." Type="Variable" Display="always" Required="true" Mask="false">5G</Config>
+  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="Port for the server" Type="Port" Display="always" Required="true" Mask="false">25565</Config>
+  <Config Name="OPS" Target="OPS" Default="" Mode="" Description="Comma separated list of players to have op capability" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
