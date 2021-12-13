@@ -60,7 +60,7 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Installed Location" Target="/data" Default="/mnt/user/appdata/skyfactory4/" Mode="rw" Description="Path to store the installed server files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/skyfactory4/</Config>
+  <Config Name="Installed Location" Target="/data" Default="/mnt/user/appdata/ftboceanblock/" Mode="rw" Description="Path to store the installed server files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/ftboceanblock/</Config>
   <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting." Type="Variable" Display="always" Required="true" Mask="false">false</Config>
   <Config Name="JVM_OPTS" Target="JVM_OPTS" Default="-Xms3072m -Xmx4096m" Mode="" Description="Java Options" Type="Variable" Display="always" Required="false" Mask="false">-Xms3072m -Xmx4096m</Config>
   <Config Name="OPS" Target="OPS" Default="" Mode="" Description="Comma separated list of players to have op capability" Type="Variable" Display="always" Required="false" Mask="false"/>
