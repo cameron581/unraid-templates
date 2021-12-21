@@ -40,6 +40,11 @@
   </Data>
   <Environment>
     <Variable>
+      <Value>false</Value>
+      <Name>EULA</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
       <Value>-Xms2048m -Xmx2048m</Value>
       <Name>JVM_OPTS</Name>
       <Mode/>
@@ -57,6 +62,7 @@
   </Environment>
   <Labels/>
   <Config Name="Installed Location" Target="/data" Default="/mnt/user/appdata/skyfactoryone/" Mode="rw" Description="Path to store the installed server files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/skyfactoryone/</Config>
+  <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting." Type="Variable" Display="always" Required="true" Mask="false">false</Config>
   <Config Name="JVM_OPTS" Target="JVM_OPTS" Default="-Xms2048m -Xmx2048m" Mode="" Description="Java Options" Type="Variable" Display="always" Required="false" Mask="false">-Xms2048m -Xmx2048m</Config>
   <Config Name="OPS" Target="OPS" Default="" Mode="" Description="Comma separated list of players to have op capability" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="Port for the server" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
