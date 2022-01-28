@@ -8,18 +8,18 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/115033-support-goobaroo-game-server-dockers/</Support>
-  <Project>https://www.feed-the-beast.com/modpack/ftb_oceanblock</Project>
-  <Overview>OceanBlock is a new unique modpack created by the FTB Team inspired by the countless island-based modpacks.[br]Expect many changes to what youre used to, encounter custom structures within the deep depths of the sea. Experience the true beauty of the obsidian boat, especially in water.[br]With over 550 quests to guide you through this wet and wild journey, youll never loose things to do. Nor will you feel bored, with the addition of rafts to break. A new addiction can form, the endless hunt for treasures among the infinite oceans. An entirely new crafting system, Tempered jars.[br]As you follow the quests, diving into new draconic technology. Enjoy the lack of ability to swim. Jump into the ocean with a scuba suit. Sluice gravel, sand, dirt and dust for resources.[br]Dive into this new drenched, world.</Overview>
+  <Project>https://feed-the-beast.com/modpack/ftb_oceanblock</Project>
+  <Overview>[b]FTB OceanBlock[/b][br]Time to dive in![br][br]Setup:[br][li]You must accept the EULA by setting the [b]EULA[/b] variable to [span style='color: #00E800;']true[/span] or the install will fail.[br]Optional:[br][li]You can setup a comma separated list of players who will have admin privileges in game by setting [b]OPS[/b]</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/Goobaroo/docker-ftbOceanBlock/main/oceanblock.png</Icon>
+  <Icon>https://apps.modpacks.ch/modpacks/art/87/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DonateText/>
   <DonateLink/>
-  <Description>FTB OceanBlock v1.9.0</Description>
+  <Description>FTB OceanBlock</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -39,6 +39,11 @@
   </Data>
   <Environment>
     <Variable>
+      <Value>false</Value>
+      <Name>EULA</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
       <Value>-Xms4096m -Xmx6144m</Value>
       <Name>JVM_OPTS</Name>
       <Mode/>
@@ -49,21 +54,22 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>world</Value>
-      <Name>LEVEL</Name>
+      <Value/>
+      <Name>MOTD</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>false</Value>
-      <Name>EULA</Name>
+      <Value>world</Value>
+      <Name>LEVEL</Name>
       <Mode/>
     </Variable>
   </Environment>
   <Labels/>
   <Config Name="Installed Location" Target="/data" Default="/mnt/user/appdata/ftboceanblock/" Mode="rw" Description="Path to store the installed server files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/ftboceanblock/</Config>
-  <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting." Type="Variable" Display="always" Required="true" Mask="false">false</Config>
-  <Config Name="JVM_OPTS" Target="JVM_OPTS" Default="-Xms3072m -Xmx4096m" Mode="" Description="Java Options" Type="Variable" Display="always" Required="false" Mask="false">-Xms3072m -Xmx4096m</Config>
+  <Config Name="EULA" Target="EULA" Default="false" Mode="" Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting. Set to 'true' to accept." Type="Variable" Display="always" Required="true" Mask="false">false</Config>
+  <Config Name="JVM_OPTS" Target="JVM_OPTS" Default="-Xms4096m -Xmx6144m" Mode="" Description="Java Options" Type="Variable" Display="always" Required="false" Mask="false">-Xms4096m -Xmx6144m</Config>
   <Config Name="OPS" Target="OPS" Default="" Mode="" Description="Comma separated list of players to have op capability" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="Port for the server" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
+  <Config Name="MOTD" Target="MOTD" Default="" Mode="" Description="Custom Message of the Day" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="Port for the server. Ignored if using a dedicated IP for the container." Type="Port" Display="always" Required="false" Mask="false">25565</Config>
   <Config Name="LEVEL" Target="LEVEL" Default="world" Mode="" Description="Name of the world directory.  It is usually world." Type="Variable" Display="advanced" Required="false" Mask="false">world</Config>
 </Container>
