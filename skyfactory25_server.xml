@@ -21,7 +21,6 @@
   <CPUset/>
   <DonateText/>
   <DonateLink/>
-  <Description>FTB Presents Skyfactory 2.5</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>

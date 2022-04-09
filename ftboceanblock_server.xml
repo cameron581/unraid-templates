@@ -21,7 +21,6 @@
   <CPUset/>
   <DonateText/>
   <DonateLink/>
-  <Description>FTB OceanBlock</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
