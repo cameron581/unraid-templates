@@ -15,7 +15,6 @@
   <ExtraSearchTerms>minecraft</ExtraSearchTerms>
   <TemplateURL/>
   <Icon>https://media.forgecdn.net/avatars/199/573/636907930795697123.png</Icon>
-  <Network>host</Network>
   <Labels/>
   <Config
       Type="Path"

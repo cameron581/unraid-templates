@@ -15,7 +15,6 @@
   <ExtraSearchTerms>minecraft</ExtraSearchTerms>
   <TemplateURL/>
   <Icon>https://apps.modpacks.ch/modpacks/art/25/skyfactory-2-5.png</Icon>
-  <Network>host</Network>
   <Labels/>
   <Config
       Type="Path"
