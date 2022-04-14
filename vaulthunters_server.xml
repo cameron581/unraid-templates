@@ -3,7 +3,7 @@
   <Name>vaulthunters</Name>
   <Repository>goobaroo/vaulthunters</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/vaulthunters</Registry>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -12,9 +12,10 @@
   <Overview>Vault Hunters - 1.12.4 Modded Minecraft Server</Overview>
   <Description>[b]Vault Hunters - 1.12.4[/b][br]Level up, loot the vaults and defeat the bosses to collect 16 artifacts![br][br]Setup:[br][li]You must accept the EULA by setting the [b]EULA[/b] variable to [span style='color: #00E800;']true[/span] or the install will fail.[br]Optional:[br][li]You can setup a comma separated list of players who will have admin privileges in game by setting [b]OPS[/b]</Description>
   <Category>GameServers:</Category>
+  <ExtraSearchTerms>minecraft</ExtraSearchTerms>
   <TemplateURL/>
   <Icon>https://media.forgecdn.net/avatars/356/341/637516501018536427.png</Icon>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <Labels/>
   <Config
       Type="Path"

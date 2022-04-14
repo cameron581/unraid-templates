@@ -3,7 +3,7 @@
   <Name>skyfactory4</Name>
   <Repository>goobaroo/skyfactory4</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/skyfactory4</Registry>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -12,9 +12,10 @@
   <Overview>SkyFactory 4 - 4.2.4 Modded Minecraft Server</Overview>
   <Description>[b]SkyFactory 4 - 4.2.4[/b][br]The ultimate skyblock modpack! Watch development at: darkosto.tv/SkyFactoryLive[br][br]Setup:[br][li]You must accept the EULA by setting the [b]EULA[/b] variable to [span style='color: #00E800;']true[/span] or the install will fail.[br]Optional:[br][li]You can setup a comma separated list of players who will have admin privileges in game by setting [b]OPS[/b]</Description>
   <Category>GameServers:</Category>
+  <ExtraSearchTerms>minecraft</ExtraSearchTerms>
   <TemplateURL/>
   <Icon>https://media.forgecdn.net/avatars/199/573/636907930795697123.png</Icon>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <Labels/>
   <Config
       Type="Path"

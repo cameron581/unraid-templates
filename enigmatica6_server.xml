@@ -3,7 +3,7 @@
   <Name>enigmatica6</Name>
   <Repository>goobaroo/enigmatica6</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/enigmatica6</Registry>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -14,7 +14,7 @@
   <Category>GameServers:</Category>
   <TemplateURL/>
   <Icon>https://media.forgecdn.net/avatars/287/328/637307875703147764.jpeg</Icon>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <Labels/>
   <Config
       Type="Path"

@@ -3,7 +3,7 @@
   <Name>SkyFactoryOne</Name>
   <Repository>goobaroo/skyfactoryone</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/skyfactoryone</Registry>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -15,7 +15,7 @@
   <ExtraSearchTerms>minecraft</ExtraSearchTerms>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Goobaroo/docker-SkyFactoryOne/main/SkyFactoryOne.png</Icon>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <Labels/>
   <Config
       Type="Path"
