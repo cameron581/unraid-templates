@@ -39,11 +39,11 @@
       Type="Variable"
       Name="JVM_OPTS"
       Target="JVM_OPTS"
-      Default="-Xms4096 -Xmx4096"
+      Default="-Xms4096m -Xmx4096m"
       Description="Java Options"
       Display="always"
       Required="false"
-      Mask="false">-Xms4096 -Xmx4096</Config>
+      Mask="false">-Xms4096m -Xmx4096m</Config>
   <Config
       Type="Variable"
       Name="OPS"

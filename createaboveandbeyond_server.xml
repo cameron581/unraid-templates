@@ -31,19 +31,20 @@
       Name="EULA"
       Target="EULA"
       Default="false"
-      Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting. Set to 'true' to accept."
+      Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting."
       Display="always"
       Required="true"
       Mask="false">false</Config>
   <Config
-      Type="Variable"
-      Name="JVM_OPTS"
-      Target="JVM_OPTS"
-      Default="-Xms2g -Xmx4g"
-      Description="Java Options"
+      Type="Port"
+      Name="Port"
+      Target="25565"
+      Default="25565"
+      Mode="tcp"
+      Description="Port for the server. Ignored if using a dedicated IP for the container."
       Display="always"
-      Required="false"
-      Mask="false">-Xms2g -Xmx4g</Config>
+      Required="true"
+      Mask="false">25565</Config>
   <Config
       Type="Variable"
       Name="OPS"
@@ -54,22 +55,12 @@
       Required="false"
       Mask="false"/>
   <Config
-      Type="Port"
-      Name="Port"
-      Target="25565"
-      Default="25565"
-      Mode="tcp"
-      Description="Port for the server"
+      Type="Variable"
+      Name="JVM_OPTS"
+      Target="JVM_OPTS"
+      Default="-Xms2048m -Xmx4096m"
+      Description="JAVA Options"
       Display="always"
       Required="false"
-      Mask="false">25565</Config>
-  <Config
-      Type="Variable"
-      Name="LEVEL"
-      Target="LEVEL"
-      Default="world"
-      Description="Name of the world directory.  It is usually world."
-      Display="advanced"
-      Required="false"
-      Mask="false">world</Config>
+      Mask="false">-Xms2048m -Xmx4096m</Config>
 </Container>
