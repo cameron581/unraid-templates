@@ -3,7 +3,7 @@
   <Name>Stoneblock2</Name>
   <Repository>goobaroo/stoneblock2</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/stoneblock2</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -38,11 +38,11 @@
       Type="Variable"
       Name="JVM_OPTS"
       Target="JVM_OPTS"
-      Default="-Xms4096m -Xmx6122m"
+      Default="-Xms4096m -Xmx6144m"
       Description="Java Options"
       Display="always"
       Required="false"
-      Mask="false">-Xms4096m -Xmx6122m</Config>
+      Mask="false">-Xms4096m -Xmx6144m</Config>
   <Config
       Type="Variable"
       Name="OPS"

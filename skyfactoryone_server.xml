@@ -3,7 +3,7 @@
   <Name>SkyFactoryOne</Name>
   <Repository>goobaroo/skyfactoryone</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/skyfactoryone</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

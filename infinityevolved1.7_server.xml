@@ -3,7 +3,7 @@
   <Name>InfinityEvolved1.7</Name>
   <Repository>goobaroo/infinityevolved</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/infinityevolved</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

@@ -3,7 +3,7 @@
   <Name>FTBOceanBlock</Name>
   <Repository>goobaroo/ftboceanblock</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftboceanblock</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

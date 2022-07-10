@@ -3,7 +3,7 @@
   <Name>enigmatica6</Name>
   <Repository>goobaroo/enigmatica6</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/enigmatica6</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

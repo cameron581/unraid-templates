@@ -3,7 +3,7 @@
   <Name>PlexiglassMountain</Name>
   <Repository>goobaroo/plexiglassmountain</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/plexiglassmountain</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
