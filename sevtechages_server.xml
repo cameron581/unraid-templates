@@ -3,7 +3,7 @@
   <Name>SevTechAges</Name>
   <Repository>goobaroo/sevtechages</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/sevtechages</Registry>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
