@@ -13,7 +13,6 @@
   <Category>GameServers:</Category>
   <ExtraSearchTerms>minecraft</ExtraSearchTerms>
   <WebUI/>
-  <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Goobaroo/docker-SkyFactory4/main/SkyFactory4.png</Icon>
   <ExtraParams/>
   <PostArgs/>
