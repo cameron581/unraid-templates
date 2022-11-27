@@ -57,7 +57,7 @@
       Name="JVM_OPTS"
       Target="JVM_OPTS"
       Default="-Xms6144m -Xmx8192m"
-      Description="JAVA Options"
+      Description="JAVA Options. VaultHunters recommend a 4GB base, and then 2GB for every player who may be online at the same time. 3 Players would be 4GB + (3 x 2GB) = 10GB. 5 players would be 4GB + (5 x 2GB) = 14GB."
       Display="always"
       Required="false"
       Mask="false">-Xms6144m -Xmx8192m</Config>
