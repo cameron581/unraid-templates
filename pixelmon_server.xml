@@ -3,7 +3,7 @@
   <Name>pixelmon</Name>
   <Repository>goobaroo/pixelmon</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/pixelmon</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

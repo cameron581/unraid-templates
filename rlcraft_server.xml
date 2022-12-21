@@ -3,7 +3,7 @@
   <Name>RLCraft</Name>
   <Repository>goobaroo/rlcraft</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/rlcraft</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

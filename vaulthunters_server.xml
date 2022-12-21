@@ -3,7 +3,7 @@
   <Name>vaulthunters</Name>
   <Repository>goobaroo/vaulthunters</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/vaulthunters</Registry>
-  <Network>host</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
