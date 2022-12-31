@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Create Flavored</Name>
+  <Name>CreateFlavored</Name>
   <Repository>goobaroo/createflavored</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/createflavored</Registry>
   <Network>bridge</Network>
@@ -56,9 +56,9 @@
       Type="Variable"
       Name="JVM_OPTS"
       Target="JVM_OPTS"
-      Default="-Xms3072m -Xmx6144m"
+      Default="-Xms2048m -Xmx4096m"
       Description="JAVA Options"
       Display="always"
       Required="false"
-      Mask="false">-Xms3072m -Xmx6144m</Config>
+      Mask="false">-Xms2048m -Xmx4096m</Config>
 </Container>
