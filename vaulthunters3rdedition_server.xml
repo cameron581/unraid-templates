@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>VaultHunters3rdEdition</Name>
+  <Name>Vault Hunters 3rd Edition</Name>
   <Repository>goobaroo/vaulthunters3</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/vaulthunters3</Registry>
   <Network>bridge</Network>
