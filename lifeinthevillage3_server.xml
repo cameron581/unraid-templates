@@ -56,9 +56,9 @@
       Type="Variable"
       Name="JVM_OPTS"
       Target="JVM_OPTS"
-      Default="-Xms2048m -Xmx4096m"
+      Default="-Xms3072m -Xmx6144m"
       Description="JAVA Options"
       Display="always"
       Required="false"
-      Mask="false">-Xms2048m -Xmx4096m</Config>
+      Mask="false">-Xms3072m -Xmx6144m</Config>
 </Container>
