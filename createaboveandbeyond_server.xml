@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>createaboveandbeyond</Name>
+  <Name>CreateAboveandBeyond</Name>
   <Repository>goobaroo/createaboveandbeyond</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/createaboveandbeyond</Registry>
   <Network>bridge</Network>

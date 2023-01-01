@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>pixelmon</Name>
+  <Name>Pixelmon</Name>
   <Repository>goobaroo/pixelmon</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/pixelmon</Registry>
   <Network>bridge</Network>
