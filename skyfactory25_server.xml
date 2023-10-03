@@ -52,6 +52,15 @@
       Required="false"
       Mask="false"/>
   <Config
+      Type="Variable"
+      Name="MOTD"
+      Target="MOTD"
+      Default=""
+      Description="Set the server MOTD"
+      Display="always"
+      Required="false"
+      Mask="false"/>
+  <Config
       Type="Port"
       Name="Port"
       Target="25565"
