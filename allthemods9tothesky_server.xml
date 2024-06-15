@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>All The Mods 9 To The Sky</Name>
-  <Repository>goobaroo/atm9sky</Repository>
+  <Repository>goobaroo/atm9sky:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/atm9sky</Registry>
   <Network>bridge</Network>
   <MyIP/>

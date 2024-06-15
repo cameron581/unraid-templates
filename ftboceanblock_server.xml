@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FTBOceanBlock</Name>
-  <Repository>goobaroo/ftboceanblock</Repository>
+  <Repository>goobaroo/ftboceanblock:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftboceanblock</Registry>
   <Network>bridge</Network>
   <MyIP/>

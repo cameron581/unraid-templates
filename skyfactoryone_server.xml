@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>SkyFactoryOne</Name>
-  <Repository>goobaroo/skyfactoryone</Repository>
+  <Repository>goobaroo/skyfactoryone:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/skyfactoryone</Registry>
   <Network>bridge</Network>
   <MyIP/>

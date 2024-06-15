@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FTB Revelation</Name>
-  <Repository>goobaroo/ftbrevelation</Repository>
+  <Repository>goobaroo/ftbrevelation:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftbrevelation</Registry>
   <Network>bridge</Network>
   <MyIP/>

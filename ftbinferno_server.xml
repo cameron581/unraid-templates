@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FTBInferno</Name>
-  <Repository>goobaroo/ftbinferno</Repository>
+  <Repository>goobaroo/ftbinferno:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftbinferno</Registry>
   <Network>bridge</Network>
   <MyIP/>

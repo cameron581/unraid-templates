@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>The Decursio Project</Name>
-  <Repository>goobaroo/decursioprojectexpert</Repository>
+  <Repository>goobaroo/decursioprojectexpert:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/decursioprojectexpert</Registry>
   <Network>bridge</Network>
   <MyIP/>

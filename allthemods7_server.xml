@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>AllTheMods7</Name>
-  <Repository>goobaroo/allthemods7</Repository>
+  <Repository>goobaroo/allthemods7:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/allthemods7</Registry>
   <Network>bridge</Network>
   <MyIP/>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>PlexiglassMountain</Name>
-  <Repository>goobaroo/plexiglassmountain</Repository>
+  <Repository>goobaroo/plexiglassmountain:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/plexiglassmountain</Registry>
   <Network>bridge</Network>
   <MyIP/>

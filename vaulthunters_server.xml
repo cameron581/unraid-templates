@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>VaultHunters</Name>
-  <Repository>goobaroo/vaulthunters</Repository>
+  <Repository>goobaroo/vaulthunters:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/vaulthunters</Registry>
   <Network>bridge</Network>
   <MyIP/>

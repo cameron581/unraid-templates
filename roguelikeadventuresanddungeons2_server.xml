@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Roguelike Adventures and Dungeons 2</Name>
-  <Repository>goobaroo/roguelikead2</Repository>
+  <Repository>goobaroo/roguelikead2:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/roguelikead2</Registry>
   <Network>bridge</Network>
   <MyIP/>

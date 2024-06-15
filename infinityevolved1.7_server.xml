@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>InfinityEvolved1.7</Name>
-  <Repository>goobaroo/infinityevolved</Repository>
+  <Repository>goobaroo/infinityevolved:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/infinityevolved</Registry>
   <Network>bridge</Network>
   <MyIP/>

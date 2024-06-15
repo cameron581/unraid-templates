@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Enigmatica6</Name>
-  <Repository>goobaroo/enigmatica6</Repository>
+  <Repository>goobaroo/enigmatica6:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/enigmatica6</Registry>
   <Network>bridge</Network>
   <MyIP/>

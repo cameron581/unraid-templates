@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Life in the Village 3</Name>
-  <Repository>goobaroo/lifeinthevillage3</Repository>
+  <Repository>goobaroo/lifeinthevillage3:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/lifeinthevillage3</Registry>
   <Network>bridge</Network>
   <MyIP/>

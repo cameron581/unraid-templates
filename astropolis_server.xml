@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Astropolis</Name>
-  <Repository>goobaroo/astropolis</Repository>
+  <Repository>goobaroo/astropolis:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/astropolis</Registry>
   <Network>bridge</Network>
   <MyIP/>

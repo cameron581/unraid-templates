@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FTBSkies</Name>
-  <Repository>goobaroo/ftbskies</Repository>
+  <Repository>goobaroo/ftbskies:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftbskies</Registry>
   <Network>bridge</Network>
   <MyIP/>

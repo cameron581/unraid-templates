@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FTB Genesis</Name>
-  <Repository>goobaroo/ftbgenesis</Repository>
+  <Repository>goobaroo/ftbgenesis:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftbgenesis</Registry>
   <Network>bridge</Network>
   <MyIP/>

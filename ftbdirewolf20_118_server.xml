@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FTBDirewolf20_118</Name>
-  <Repository>goobaroo/ftbdirewolf20_118</Repository>
+  <Repository>goobaroo/ftbdirewolf20_118:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftbdirewolf20_118</Registry>
   <Network>bridge</Network>
   <MyIP/>

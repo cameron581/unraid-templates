@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Nomifactory CEu</Name>
-  <Repository>goobaroo/nomifactoryceu</Repository>
+  <Repository>goobaroo/nomifactoryceu:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/nomifactoryceu</Registry>
   <Network>bridge</Network>
   <MyIP/>

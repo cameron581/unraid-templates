@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Stoneblock3</Name>
-  <Repository>goobaroo/stoneblock3</Repository>
+  <Repository>goobaroo/stoneblock3:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/stoneblock3</Registry>
   <Network>bridge</Network>
   <MyIP/>

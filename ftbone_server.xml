@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FTB One</Name>
-  <Repository>goobaroo/ftbone</Repository>
+  <Repository>goobaroo/ftbone:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/ftbone</Registry>
   <Network>bridge</Network>
   <MyIP/>

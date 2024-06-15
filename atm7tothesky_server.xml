@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ATM7ToTheSky</Name>
-  <Repository>goobaroo/atm7sky</Repository>
+  <Repository>goobaroo/atm7sky:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/atm7sky</Registry>
   <Network>bridge</Network>
   <MyIP/>

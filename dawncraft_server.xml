@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Dawn Craft</Name>
-  <Repository>goobaroo/dawncraft</Repository>
+  <Repository>goobaroo/dawncraft:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/goobaroo/dawncraft</Registry>
   <Network>bridge</Network>
   <MyIP/>
